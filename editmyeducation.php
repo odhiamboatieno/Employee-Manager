@@ -183,7 +183,7 @@ while ($row=mysqli_fetch_array($ret)) {
                     </div>
 
                     <div class="row">
-                      <div class="col-4 mb-3">Percentage in HSC</div>
+                      <div class="col-4 mb-3">Percentage  Scored in HSC</div>
                      <div class="col-8 mb-3">
                       <input type="text" class="form-control form-control-user" id="pihsc" name="pihsc" aria-describedby="emailHelp" required="true" value="<?php  echo $row['PercentageHSC'];?>">
                     </div></div>
